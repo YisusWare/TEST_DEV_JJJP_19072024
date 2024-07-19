@@ -7,14 +7,14 @@
         <div class="login-form">
             <div>
                 <span class="form-span">Correo</span>
-                <input type="text" pInputText>
+                <input type="text" pInputText [(ngModel)]="modeloLogin.email">
             </div>
             <div>
                 <span class="form-span">Contraseña</span>
-                <input type="password" pInputText>
+                <input type="password" pInputText [(ngModel)]="modeloLogin.password">
             </div>
             <div>
-                <button class="btn btn-login">Ingresar</button>
+                <button class="btn btn-login" (click)="login()">Ingresar</button>
             </div>
             <hr>
         </div>

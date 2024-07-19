@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InputTextModule } from 'primeng/inputtext';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -8,10 +9,12 @@ import { InputTextModule } from 'primeng/inputtext';
   declarations: [],
   imports: [
     CommonModule,
-    InputTextModule
+    InputTextModule,
+    FormsModule
   ],
   exports: [
-    InputTextModule
+    InputTextModule,
+    FormsModule
   ]
 })
 export class PrimengModule { }

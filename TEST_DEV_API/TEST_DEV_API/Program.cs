@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using TEST_DEV.Data.Data;
 using TEST_DEV_API.Interfaces;
 using TEST_DEV_API.Repositories;
+using TEST_DEV_API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,18 @@ builder.Services.AddDbContext<SPDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader();
+        });
+});
+
+builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddScoped<IPersonaFisicaRepository, PersonaFisicaRepository>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
