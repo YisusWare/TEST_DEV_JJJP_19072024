@@ -15,3 +15,20 @@ D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.
 D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Models.dll
 D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Models.pdb
 D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.csproj.CopyComplete
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Data.deps.json
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Data.runtimeconfig.json
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Data.dll
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Data.pdb
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Models.dll
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Models.pdb
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.csproj.AssemblyReference.cache
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.AssemblyInfoInputs.cache
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.AssemblyInfo.cs
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.csproj.CoreCompileInputs.cache
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.csproj.CopyComplete
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.dll
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\refint\TEST_DEV.Data.dll
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.pdb
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.genruntimeconfig.cache
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\ref\TEST_DEV.Data.dll

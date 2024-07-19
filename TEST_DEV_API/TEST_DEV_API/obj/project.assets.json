@@ -2267,11 +2267,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV_API\\TEST_DEV_API.csproj",
+      "projectUniqueName": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV_API\\TEST_DEV_API.csproj",
       "projectName": "TEST_DEV_API",
-      "projectPath": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV_API\\TEST_DEV_API.csproj",
+      "projectPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV_API\\TEST_DEV_API.csproj",
       "packagesPath": "C:\\Users\\LGsus\\.nuget\\packages\\",
-      "outputPath": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV_API\\obj\\",
+      "outputPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV_API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LGsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2289,11 +2289,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj": {
-              "projectPath": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj"
+            "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj": {
+              "projectPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj"
             },
-            "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj": {
-              "projectPath": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj"
+            "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj": {
+              "projectPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj"
             }
           }
         }
