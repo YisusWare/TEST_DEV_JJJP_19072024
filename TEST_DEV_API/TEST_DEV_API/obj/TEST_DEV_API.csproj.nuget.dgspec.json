@@ -82,7 +82,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj": {
+                "projectPath": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

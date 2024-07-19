@@ -782,6 +782,16 @@
             "rid": "win"
           }
         }
+      },
+      "TEST_DEV.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TEST_DEV.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TEST_DEV.Models.dll": {}
+        }
       }
     }
   },
@@ -2003,12 +2013,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TEST_DEV.Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/TEST_DEV.Models.csproj",
+      "msbuildProject": "../Models/TEST_DEV.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.32",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.32"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.32",
+      "TEST_DEV.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2037,7 +2053,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj": {
+              "projectPath": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

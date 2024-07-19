@@ -4,6 +4,61 @@
     "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj": {}
   },
   "projects": {
+    "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj",
+        "projectName": "TEST_DEV.Models",
+        "projectPath": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj",
+        "packagesPath": "C:\\Users\\LGsus\\.nuget\\packages\\",
+        "outputPath": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\LGsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +82,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj": {
+                "projectPath": "D:\\C# projects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

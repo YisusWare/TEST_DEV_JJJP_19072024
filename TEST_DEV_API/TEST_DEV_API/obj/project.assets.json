@@ -874,7 +874,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.32"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.32",
+          "TEST_DEV.Models": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TEST_DEV.Data.dll": {}

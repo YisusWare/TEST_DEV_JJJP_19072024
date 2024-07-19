@@ -1,0 +1,14 @@
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Data.deps.json
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Data.runtimeconfig.json
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Data.dll
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Data.pdb
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.csproj.AssemblyReference.cache
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.AssemblyInfoInputs.cache
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.AssemblyInfo.cs
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.csproj.CoreCompileInputs.cache
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.dll
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\refint\TEST_DEV.Data.dll
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.pdb
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.genruntimeconfig.cache
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\ref\TEST_DEV.Data.dll
