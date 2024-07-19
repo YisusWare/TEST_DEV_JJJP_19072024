@@ -18,6 +18,7 @@ namespace TEST_DEV.Data.Data
         }
 
         public virtual DbSet<TbPersonasFisica> TbPersonasFisicas { get; set; } = null!;
+        public virtual DbSet<TbUsuario> TbUsuarios { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -62,6 +63,15 @@ namespace TEST_DEV.Data.Data
                     .HasMaxLength(13)
                     .IsUnicode(false)
                     .HasColumnName("RFC");
+            });
+
+            modelBuilder.Entity<TbUsuario>(entity =>
+            {
+                entity.HasKey(e => e.IdUser);
+
+                entity.ToTable("Tb_Usuarios");
+
+                entity.Property(e => e.Email).HasMaxLength(50);
             });
 
             OnModelCreatingPartial(modelBuilder);
