@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace TEST_DEV.Models.Models
 {
     public partial class TbPersonasFisica
     {
+        [Key]
         public int IdPersonaFisica { get; set; }
         public DateTime? FechaRegistro { get; set; }
         public DateTime? FechaActualizacion { get; set; }

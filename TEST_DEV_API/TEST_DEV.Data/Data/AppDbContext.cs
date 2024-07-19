@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using TEST_DEV.Models.Models;
 
-namespace TEST_DEV.Models.Data
+namespace TEST_DEV.Data.Data
 {
     public partial class AppDbContext : DbContext
     {

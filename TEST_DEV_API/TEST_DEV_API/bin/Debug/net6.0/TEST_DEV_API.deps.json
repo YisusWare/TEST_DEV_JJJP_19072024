@@ -497,7 +497,8 @@
       },
       "TEST_DEV.Data/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.32"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.32",
+          "TEST_DEV.Models": "1.0.0"
         },
         "runtime": {
           "TEST_DEV.Data.dll": {}

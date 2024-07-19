@@ -20,10 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Models\TEST_DEV.Models.csproj" />
     <ProjectReference Include="..\TEST_DEV.Data\TEST_DEV.Data.csproj" />
   </ItemGroup>

@@ -14,4 +14,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Models\TEST_DEV.Models.csproj" />
+  </ItemGroup>
+
 </Project>

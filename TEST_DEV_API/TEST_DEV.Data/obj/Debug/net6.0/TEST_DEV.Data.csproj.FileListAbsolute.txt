@@ -12,3 +12,6 @@ D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.
 D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.pdb
 D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.genruntimeconfig.cache
 D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\ref\TEST_DEV.Data.dll
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Models.dll
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\bin\Debug\net6.0\TEST_DEV.Models.pdb
+D:\C# projects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV.Data\obj\Debug\net6.0\TEST_DEV.Data.csproj.CopyComplete
