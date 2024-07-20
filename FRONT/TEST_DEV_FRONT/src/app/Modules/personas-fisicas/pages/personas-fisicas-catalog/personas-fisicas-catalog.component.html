@@ -8,22 +8,22 @@
         </div>
         <div class="filter-container">
             <span class="form-span">Nombre</span>
-            <input type="text" pInputText>
+            <input type="text" pInputText [(ngModel)]="filtroNombre">
         </div>
         <div class="filter-container">
             <span class="form-span">Apellido Paterno</span>
-            <input type="text" pInputText >
+            <input type="text" pInputText [(ngModel)]="filtroApellidoPaterno">
         </div>
         <div class="filter-container">
             <span class="form-span">Apellido Materno</span>
-            <input type="text" pInputText>
+            <input type="text" pInputText [(ngModel)]="filtroApellidoMaterno">
         </div>
         <div class="filter-container">
             <span class="form-span">RFC</span>
-            <input type="text" pInputText>
+            <input type="text" pInputText [(ngModel)]="filtroRFC">
         </div>
         <div class="filter-container">
-            <button class="btn btn-search">Filtrar</button>
+            <button class="btn btn-search" (click)="filtrarPersonas()">Filtrar</button>
         </div>
     </div>
 </div>

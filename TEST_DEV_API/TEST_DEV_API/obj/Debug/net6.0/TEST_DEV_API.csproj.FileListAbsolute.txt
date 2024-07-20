@@ -142,3 +142,5 @@ D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV_API\obj\Debug\net
 D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV_API\obj\Debug\net6.0\TEST_DEV_API.pdb
 D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV_API\obj\Debug\net6.0\TEST_DEV_API.genruntimeconfig.cache
 D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV_API\obj\Debug\net6.0\ref\TEST_DEV_API.dll
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV_API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CSharpProjects\TEST_DEV_JJJP_19072024\TEST_DEV_API\TEST_DEV_API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

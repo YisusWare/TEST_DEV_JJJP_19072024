@@ -32,4 +32,19 @@ export class AuthService {
     );
 
   }
+
+  setCurrentUser(user: loginUsuarioResponseViewModel){
+    //localStorage.setItem("user", JSON.stringify(user));
+    this.currentUserSource.next(user);
+
+  }
+
+  logout(){
+    localStorage.removeItem("user");
+    this.currentUserSource.next(null);
+  }
+
+  register(user: any){
+     return this.http.post<any>( `${this.URL}register`, user)
+  }
 }
