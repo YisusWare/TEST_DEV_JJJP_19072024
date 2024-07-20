@@ -20,6 +20,14 @@
     color: white;
 }
 
+.btn-delete{
+    width: 100px;
+    background-color: rgb(168, 39, 39);
+    border: none;
+    font-weight: 700;
+    color: white;
+}
+
 .btn:hover{
     opacity: 70%;
 }

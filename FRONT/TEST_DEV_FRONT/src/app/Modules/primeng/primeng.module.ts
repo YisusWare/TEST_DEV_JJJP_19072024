@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
 import { MenubarModule } from 'primeng/menubar';
+import { TableModule } from 'primeng/table';
 
 
 
@@ -17,7 +18,8 @@ import { MenubarModule } from 'primeng/menubar';
   exports: [
     InputTextModule,
     FormsModule,
-    MenubarModule
+    MenubarModule,
+    TableModule
   ]
 })
 export class PrimengModule { }

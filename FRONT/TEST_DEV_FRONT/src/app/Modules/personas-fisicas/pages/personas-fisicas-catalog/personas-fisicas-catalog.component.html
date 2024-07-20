@@ -1,6 +1,34 @@
 <div class="main-component-container">
     <div class="catalog-container">
-
+        <div class="catalog-controls-area">
+            <button class="btn btn-search">Agregar</button>
+        </div>
+        <p-table
+        [value]="catalogoDePersonas"
+        [paginator]="true"
+        [rows]="10"
+        [tableStyle]="{ 'min-width': '50rem' }"
+>
+    <ng-template pTemplate="header">
+        <tr>
+            <th style="width:25%">Nombre</th>
+            <th style="width:25%">RFC</th>
+            <th style="width:25%">Fecha de Nacimiento</th>
+            <th></th>
+            
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-persona>
+        <tr>
+            <td>{{ persona.nombre + ' ' + persona.apellidoPaterno + ' ' + persona.apellidoMaterno }}</td>
+            <td>{{ persona.rfc }}</td>
+            <td>{{ persona.fechaNacimiento | date }}</td>
+            <td>
+                <button class="btn btn-delete">Eliminar</button>
+            </td>
+        </tr>
+    </ng-template>
+</p-table>
     </div>
     <div class="filters-form-container">
         <div class="filters-title">
