@@ -23,4 +23,12 @@ export class PersonasFisicasService {
     
     return this.http.get<TbPersonaFisica[]>(`${this.URL}ObtenerPersonasFisicas`,{params});
   }
+
+  AgregarPersonaFisica(persona:TbPersonaFisica){
+    return this.http.post(`${this.URL}CrearPersonaFisica`,persona)
+  }
+
+  EditarPersonaFisica(persona: TbPersonaFisica){
+    return this.http.put(`${this.URL}ActualizarPersonaFisica`,persona);
+  }
 }

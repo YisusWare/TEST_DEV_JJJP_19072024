@@ -1,7 +1,39 @@
+<p-dialog
+header="Persona Física"
+[modal]="true" 
+[(visible)]="showDialog">
+    <div class="register-form-container">
+        <div>
+            <span class="form-span">Nombre</span>
+            <input type="text" pInputText [(ngModel)]="personaAux.nombre">
+        </div>
+        <div>
+            <span class="form-span">Primer Apellido</span>
+            <input type="text" pInputText [(ngModel)]="personaAux.apellidoPaterno">
+        </div>
+        <div>
+            <span class="form-span">Segundo Apellido</span>
+            <input type="text" pInputText [(ngModel)]="personaAux.apellidoMaterno">
+        </div>
+        <div>
+            <span class="form-span">RFC</span>
+            <input type="text" pInputText [(ngModel)]="personaAux.rfc">
+        </div>
+        <div>
+            <span class="form-span">Fecha de Nacimiento</span>
+            <p-calendar [(ngModel)]="personaAux.fechaNacimiento" [appendTo]="'body'"/>
+        </div>
+        <div>
+            <button class="btn btn-search" (click)="validarFormulario()"> Submit </button>
+        </div>
+
+    </div>
+</p-dialog>
+
 <div class="main-component-container">
     <div class="catalog-container">
         <div class="catalog-controls-area">
-            <button class="btn btn-search">Agregar</button>
+            <button class="btn btn-search" (click)="showAddDialog()">Agregar</button>
         </div>
         <p-table
         [value]="catalogoDePersonas"
@@ -24,6 +56,7 @@
             <td>{{ persona.rfc }}</td>
             <td>{{ persona.fechaNacimiento | date }}</td>
             <td>
+                <button class="btn btn-edit" (click)="showEditDialog(persona)">Editar</button>
                 <button class="btn btn-delete">Eliminar</button>
             </td>
         </tr>

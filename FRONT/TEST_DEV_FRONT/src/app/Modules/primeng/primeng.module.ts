@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InputTextModule } from 'primeng/inputtext';
+import { DialogModule } from 'primeng/dialog';
 import { FormsModule } from '@angular/forms';
 import { MenubarModule } from 'primeng/menubar';
 import { TableModule } from 'primeng/table';
-
+import { CalendarModule } from 'primeng/calendar';
 
 
 @NgModule({
@@ -19,7 +20,9 @@ import { TableModule } from 'primeng/table';
     InputTextModule,
     FormsModule,
     MenubarModule,
-    TableModule
+    TableModule,
+    DialogModule,
+    CalendarModule
   ]
 })
 export class PrimengModule { }

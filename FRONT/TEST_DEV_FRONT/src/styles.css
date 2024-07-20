@@ -28,6 +28,11 @@
     color: white;
 }
 
+.btn-edit{
+    width: 100px;
+    margin-right: 8px;
+}
+
 .btn:hover{
     opacity: 70%;
 }

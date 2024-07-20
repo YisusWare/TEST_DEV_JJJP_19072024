@@ -16,6 +16,15 @@
     padding: 16px;
 }
 
+.register-form-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 16px;
+    align-items: end;
+    justify-items: center;
+    padding-right: 16px;
+}
+
 .filters-form-container{
     width: 20%;
     display: flex;
