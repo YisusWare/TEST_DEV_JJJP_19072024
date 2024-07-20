@@ -40,6 +40,11 @@
     padding: 8px;
 }
 
+.delete-button-area{
+    display: flex;
+    justify-content: end;
+}
+
 .form-span{
     display: block;
 }

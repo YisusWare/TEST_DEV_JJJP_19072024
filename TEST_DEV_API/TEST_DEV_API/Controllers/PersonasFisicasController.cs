@@ -73,7 +73,7 @@ namespace TEST_DEV_API.Controllers
             return Ok();
         }
 
-        [HttpDelete("EliminarPersonaFisica")]
+        [HttpDelete("EliminarPersonaFisica/{idPersonaFisica}")]
         public async Task<ActionResult> EliminarPersonaFisica(int idPersonaFisica)
         {
             await _personaFisicaRepository.EliminarPersonaFisica(idPersonaFisica);

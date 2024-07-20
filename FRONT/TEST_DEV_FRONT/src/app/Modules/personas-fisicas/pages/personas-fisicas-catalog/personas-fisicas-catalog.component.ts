@@ -30,6 +30,7 @@ export class PersonasFisicasCatalogComponent implements OnInit {
 
   showDialog: boolean = false;
   addNewRegistry: boolean = false;
+  showDeleteDialog: boolean = false;
 
   constructor(private personasFisicasService:PersonasFisicasService){}
 
@@ -74,6 +75,12 @@ export class PersonasFisicasCatalogComponent implements OnInit {
     this.addNewRegistry = false;
   }
 
+  showDeleteDialogMethod(persona: TbPersonaFisica){
+    this.personaAux = persona;
+    this.showDeleteDialog = true;
+  }
+
+
   validarFormulario(){
 
     if(this.addNewRegistry){
@@ -89,6 +96,7 @@ export class PersonasFisicasCatalogComponent implements OnInit {
     .subscribe({
       next: () =>{
         this.showDialog = false;
+        this.validarFormulario();
         //To do: mostrar dialog de personas agregadas
       }
     })
@@ -99,6 +107,16 @@ export class PersonasFisicasCatalogComponent implements OnInit {
     .subscribe({
       next: ()=>{
         this.showDialog = false;
+      }
+    })
+  }
+
+  eliminarPersonaFisica(){
+    this.personasFisicasService.EliminarPersonaFisica(this.personaAux.idPersonaFisica)
+    .subscribe({
+      next: ()=>{
+        this.showDeleteDialog = false;
+        this.validarFormulario();
       }
     })
   }

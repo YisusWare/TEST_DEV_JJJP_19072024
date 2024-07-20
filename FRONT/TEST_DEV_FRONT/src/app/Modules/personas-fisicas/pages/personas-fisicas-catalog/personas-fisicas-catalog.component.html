@@ -29,6 +29,14 @@ header="Persona Física"
 
     </div>
 </p-dialog>
+<p-dialog
+[modal]="true" 
+[(visible)]="showDeleteDialog">
+    <h3>¿Estas seguro de eliminar al usuario {{personaAux.nombre}}?</h3>
+    <div class="delete-button-area">
+        <button class="btn btn-delete" (click)="eliminarPersonaFisica()">Eliminar</button>
+    </div>
+</p-dialog>
 
 <div class="main-component-container">
     <div class="catalog-container">
@@ -57,7 +65,7 @@ header="Persona Física"
             <td>{{ persona.fechaNacimiento | date }}</td>
             <td>
                 <button class="btn btn-edit" (click)="showEditDialog(persona)">Editar</button>
-                <button class="btn btn-delete">Eliminar</button>
+                <button class="btn btn-delete" (click)="showDeleteDialogMethod(persona)">Eliminar</button>
             </td>
         </tr>
     </ng-template>

@@ -31,4 +31,8 @@ export class PersonasFisicasService {
   EditarPersonaFisica(persona: TbPersonaFisica){
     return this.http.put(`${this.URL}ActualizarPersonaFisica`,persona);
   }
+
+  EliminarPersonaFisica(IdPersona: number){
+    return this.http.delete(`${this.URL}EliminarPersonaFisica/${IdPersona}`);
+  }
 }
