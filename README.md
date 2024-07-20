@@ -45,8 +45,8 @@ With both Node and Angular installed, go to the root folder of the angular proje
 Run the project by running 
 `ng serve -o`
 
-#.NET Project
-the configuration of the web API is much easyer, just need to install VisualStudio 2019 and .NET 5
+#Dotnet Project
+the configuration of the web API is much easyer, just need to install VisualStudio 2019 and dotnet 5
 
 #Common problems
 the port when the API runs coud change from one computer to another, this could be a problem because the frontend will never connect, in order to solve this problem run the web API and check for the port where it is running. Then on the angular project, look for the **environment.ts** file and change the port number, for example, if the web API is running on the **44303** port your file must look like this.
