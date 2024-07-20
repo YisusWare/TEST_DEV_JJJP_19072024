@@ -20,7 +20,7 @@ export class LoginComponent {
   login(){
     this.authService.login(this.modeloLogin).subscribe({
       next: result =>{
-        this.router.navigateByUrl('personas-fisicas')
+        this.router.navigateByUrl('home/personas-fisicas')
       }
     })
   }

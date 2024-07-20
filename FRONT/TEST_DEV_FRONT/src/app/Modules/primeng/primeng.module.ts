@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { InputTextModule } from 'primeng/inputtext';
 import { FormsModule } from '@angular/forms';
+import { MenubarModule } from 'primeng/menubar';
 
 
 
@@ -10,11 +11,13 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     InputTextModule,
-    FormsModule
+    FormsModule,
+    MenubarModule
   ],
   exports: [
     InputTextModule,
-    FormsModule
+    FormsModule,
+    MenubarModule
   ]
 })
 export class PrimengModule { }

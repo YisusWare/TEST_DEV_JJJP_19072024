@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { PersonasFisicasRoutingModule } from './personas-fisicas-routing.module';
 import { PersonasFisicasCatalogComponent } from './pages/personas-fisicas-catalog/personas-fisicas-catalog.component';
+import { PrimengModule } from '../primeng/primeng.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { PersonasFisicasCatalogComponent } from './pages/personas-fisicas-catalo
   ],
   imports: [
     CommonModule,
-    PersonasFisicasRoutingModule
+    PersonasFisicasRoutingModule,
+    PrimengModule
   ]
 })
 export class PersonasFisicasModule { }

@@ -12,6 +12,14 @@
     transition: all 0.3s ease;
 }
 
+.btn-search{
+    width: 100px;
+    background-color: rgb(57, 193, 57);
+    border: none;
+    font-weight: 700;
+    color: white;
+}
+
 .btn:hover{
     opacity: 70%;
 }
