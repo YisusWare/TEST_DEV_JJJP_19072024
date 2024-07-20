@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { MenubarModule } from 'primeng/menubar';
 import { TableModule } from 'primeng/table';
 import { CalendarModule } from 'primeng/calendar';
+import { ToastModule } from 'primeng/toast';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { CalendarModule } from 'primeng/calendar';
     MenubarModule,
     TableModule,
     DialogModule,
-    CalendarModule
+    CalendarModule,
+    ToastModule
   ]
 })
 export class PrimengModule { }
