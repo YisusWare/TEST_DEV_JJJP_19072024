@@ -70,7 +70,7 @@ export class PersonasFisicasCatalogComponent implements OnInit {
   }
 
   showEditDialog(persona: TbPersonaFisica){
-    this.personaAux = persona;
+    this.personaAux = JSON.parse(JSON.stringify(persona));
     this.showDialog = true;
     this.addNewRegistry = false;
   }
@@ -96,7 +96,7 @@ export class PersonasFisicasCatalogComponent implements OnInit {
     .subscribe({
       next: () =>{
         this.showDialog = false;
-        this.validarFormulario();
+        this.filtrarPersonas();
         //To do: mostrar dialog de personas agregadas
       }
     })
@@ -107,6 +107,7 @@ export class PersonasFisicasCatalogComponent implements OnInit {
     .subscribe({
       next: ()=>{
         this.showDialog = false;
+        this.filtrarPersonas();
       }
     })
   }

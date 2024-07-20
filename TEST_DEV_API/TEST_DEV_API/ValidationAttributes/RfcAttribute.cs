@@ -9,7 +9,7 @@ namespace TEST_DEV_API.ValidationAttributes
 {
     public class RfcAttribute : ValidationAttribute
     {
-        private static readonly Regex RfcRegex = new Regex(@"^[A-ZÑ&]{3,4}\d{6}[A-Z0-9]{3}$", RegexOptions.Compiled);
+        private static readonly Regex RfcRegex = new Regex(@"^[A-ZÑ&]{4}\d{6}[A-Z0-9]{3}$", RegexOptions.Compiled);
 
         public RfcAttribute() : base("Invalid RFC format.")
         {
