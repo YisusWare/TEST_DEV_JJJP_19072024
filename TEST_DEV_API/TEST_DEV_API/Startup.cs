@@ -15,6 +15,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TEST_DEV_API.Extensions;
+using TEST_DEV_API.Middleware;
 
 namespace TEST_DEV_API
 {
@@ -51,6 +52,8 @@ namespace TEST_DEV_API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TEST_DEV_API v1"));
             }
+
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseHttpsRedirection();
 
