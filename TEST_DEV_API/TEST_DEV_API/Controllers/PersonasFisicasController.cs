@@ -1,8 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using TEST_DEV.Models.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using TEST_DEV_API.Interfaces;
+using TEST_DEV_API.Models;
 
 namespace TEST_DEV_API.Controllers
 {
@@ -19,14 +23,14 @@ namespace TEST_DEV_API.Controllers
             _personaFisicaRepository = personaFisicaRepository;
         }
 
-        
+
 
         [HttpPost("CrearPersonaFisica")]
         public async Task<ActionResult> CrearPersonaFisica([FromBody] TbPersonasFisica nuevaPersonaFisica)
         {
             await _personaFisicaRepository.CrearPersonaFisica(nuevaPersonaFisica);
-        
-            return  Ok(nuevaPersonaFisica);
+
+            return Ok(nuevaPersonaFisica);
         }
 
         [HttpGet("ObtenerPersonaFisicaPorId/{id}")]
@@ -58,7 +62,7 @@ namespace TEST_DEV_API.Controllers
             };
 
             IEnumerable<TbPersonasFisica> resultado = await _personaFisicaRepository.ObtenerPersonasFisicas(persona);
-            
+
             return Ok(resultado);
         }
 
@@ -76,6 +80,5 @@ namespace TEST_DEV_API.Controllers
 
             return Ok();
         }
-
     }
 }

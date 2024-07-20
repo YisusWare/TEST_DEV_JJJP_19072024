@@ -4,140 +4,6 @@
     "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV_API\\TEST_DEV_API.csproj": {}
   },
   "projects": {
-    "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj",
-        "projectName": "TEST_DEV.Models",
-        "projectPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj",
-        "packagesPath": "C:\\Users\\LGsus\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\LGsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj",
-        "projectName": "TEST_DEV.Data",
-        "projectPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj",
-        "packagesPath": "C:\\Users\\LGsus\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\LGsus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj": {
-                "projectPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.32, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.32, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.32, )"
-            },
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[6.36.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV_API\\TEST_DEV_API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -152,24 +18,16 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj": {
-                "projectPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\Models\\TEST_DEV.Models.csproj"
-              },
-              "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj": {
-                "projectPath": "D:\\CSharpProjects\\TEST_DEV_JJJP_19072024\\TEST_DEV_API\\TEST_DEV.Data\\TEST_DEV.Data.csproj"
-              }
-            }
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -179,28 +37,30 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.0.32, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[6.0.32, )"
+              "version": "[5.0.17, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.32, )"
+              "version": "[5.0.17, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[5.6.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
             }
           },
           "imports": [
@@ -209,8 +69,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -222,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23225.8\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.415\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\LGsus\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\LGsus\\.nuget\\packages"
+    ]
+  }
+}

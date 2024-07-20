@@ -1,5 +1,4 @@
-﻿using TEST_DEV_API.Interfaces;
-using Microsoft.Extensions.Configuration;
+﻿using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
@@ -8,37 +7,41 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using TEST_DEV.Models.Models;
+using TEST_DEV_API.Interfaces;
+using TEST_DEV_API.Models;
 
 namespace TEST_DEV_API.Services
 {
     public class TokenService : ITokenService
     {
-        private readonly SymmetricSecurityKey _key;
+        private readonly IConfiguration _config;
         public TokenService(IConfiguration config)
         {
             //_key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["TokenKey"]));
-            _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("super secret unguessable key hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh"));
+            _config = config;
         }
-
         public string CrearToken(TbUsuario usuario)
         {
-            var claims = new List<Claim>()
+            var tokenKey = _config["TokenKey"] ?? throw new Exception("No se pudo acceder al token Key");
+            if (tokenKey.Length < 64) throw new Exception("Token key demasiado corta");
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenKey));
+
+            var claims = new List<Claim>
             {
-                new Claim(JwtRegisteredClaimNames.Name, usuario.Email)
+                new Claim(ClaimTypes.NameIdentifier,usuario.Email)
             };
 
-            var credentials = new SigningCredentials(_key, SecurityAlgorithms.HmacSha512Signature);
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
 
-            var tokenDescriptor = new SecurityTokenDescriptor()
+            var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.Now.AddDays(7),
-                SigningCredentials = credentials
+                Expires = DateTime.UtcNow.AddDays(7),
+                SigningCredentials = creds
             };
 
             var tokenHandler = new JwtSecurityTokenHandler();
-
             var token = tokenHandler.CreateToken(tokenDescriptor);
 
             return tokenHandler.WriteToken(token);

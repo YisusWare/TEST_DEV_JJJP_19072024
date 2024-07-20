@@ -20,10 +20,7 @@ export class JwtInterceptor implements HttpInterceptor {
     .pipe(take(1))
     .subscribe({
       next: user =>{
-        console.log(user);
         if(user){
-          
-          console.log(user.token);
           request = request.clone({
             setHeaders:{
               Authorization: "Bearer " + user.token
