@@ -16,12 +16,13 @@ export class NavbarComponent implements OnInit {
           label: 'Personas Fisicas',
           icon: 'pi pi-home',
           routerLink: 'personas-fisicas'
-      },
-      {
-        label: 'Reportes',
-        icon: 'pi pi-home',
-        routerLink: 'reportes'
       }
+      // ,
+      // {
+      //   label: 'Reportes',
+      //   icon: 'pi pi-home',
+      //   routerLink: 'reportes'
+      // }
     ]
   }
 
