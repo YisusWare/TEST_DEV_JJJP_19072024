@@ -21,7 +21,6 @@ export class ErrorInterceptor implements HttpInterceptor {
       catchError((error: HttpErrorResponse) => {
 
         if(error){
-          console.log("error");
           switch(error.status){
             case 400:
               //400

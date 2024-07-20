@@ -7,29 +7,49 @@ import {
 } from '@angular/common/http';
 import { Observable, take } from 'rxjs';
 import { AuthService } from '../services/auth.service';
+import { ReportesService } from '../services/reportes.service';
 
 @Injectable()
 export class JwtInterceptor implements HttpInterceptor {
 
-  constructor(private authService:AuthService) {}
+  constructor(private authService:AuthService,private reportesService:ReportesService) {}
 
   intercept(request: HttpRequest<unknown>, next: HttpHandler): Observable<HttpEvent<unknown>> {
 
-    console.log("intercept");
-    this.authService.currentUser$
+
+    if(request.url != this.reportesService.reportURL){
+
+        this.authService.currentUser$
+      .pipe(take(1))
+      .subscribe({
+        next: user =>{
+          if(user){
+            request = request.clone({
+              setHeaders:{
+                Authorization: "Bearer " + user.token
+              }
+            })
+          }
+        }
+      });
+
+      return next.handle(request);
+    }
+
+    this.reportesService.reportToken$
     .pipe(take(1))
     .subscribe({
-      next: user =>{
-        if(user){
+      next: token =>{
+        if(token){
           request = request.clone({
             setHeaders:{
-              Authorization: "Bearer " + user.token
+              Authorization: "Bearer " + token.Data
             }
           })
         }
       }
     });
 
-    return next.handle(request);
+    return next.handle(request);    
   }
 }

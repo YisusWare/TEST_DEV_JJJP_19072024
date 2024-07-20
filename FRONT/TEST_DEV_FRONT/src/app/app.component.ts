@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { AuthService } from './services/auth.service';
+import { ReportesService } from './services/reportes.service';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ export class AppComponent {
 
   ngOnInit(): void {
       this.setCurrentUser();
+      
   }
 
   setCurrentUser(){
@@ -26,4 +28,6 @@ export class AppComponent {
 
     this.authService.setCurrentUser(JSON.parse(userString));
   }
+
+  
 }
